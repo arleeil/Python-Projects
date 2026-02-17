@@ -1,0 +1,35 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: solution.py
+    visible: true
+    learner_created: false
+status: Failed
+feedback:
+  message: "'Welcome to Python Pizza Deliveries!\\nYour[18 chars]5.\\n' != '-------------Welcome\
+    \ to Python Pizza Deli[185 chars]a!\\n'"
+  time: "Mon, 16 Jun 2025 18:47:20 UTC"
+  expected: |
+    Welcome to Python Pizza Deliveries!
+    Your final bill is: $25.
+  actual: |
+    -------------Welcome to Python Pizza Deliveries!-----------------
+    Please ensure Response is CAPS
+    ------------------Your Order------------------
+    Size:L
+
+    Total: $28
+    Your final bill is 28
+    Thank You For Shopping Python Pizza!
+record: -1
